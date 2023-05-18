@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>HTML Calculator</title>
+</head>
+<body bgcolor= "#000000" text= "gold" ><center><h1><h1>CALCULATOR</h1>
+  
+<form name="calculator" >
+<input type="button" value="1" onClick="document.calculator.ans.value+='1'" class="form-control">
+<input type="button" value="2" onClick="document.calculator.ans.value+='2'" class="form-control">
+<input type="button" value="3" onClick="document.calculator.ans.value+='3'"class="form-control" ><br><br>
+<input type="button" value="4" onClick="document.calculator.ans.value+='4'" class="form-control">
+<input type="button" value="5" onClick="document.calculator.ans.value+='5'" class="form-control">
+<input type="button" value="6" onClick="document.calculator.ans.value+='6'" class="form-control"><br><br>
+<input type="button" value="7" onClick="document.calculator.ans.value+='7'" class="form-control">
+<input type="button" value="8" onClick="document.calculator.ans.value+='8'" class="form-control">
+<input type="button" value="9" onClick="document.calculator.ans.value+='9'" class="form-control"><br><br>
+<input type="button" value="-" onClick="document.calculator.ans.value+='-'" class="form-control">
+<input type="button" value="+" onClick="document.calculator.ans.value+='+'" class="form-control">
+<input type="button" value="*" onClick="document.calculator.ans.value+='*'" class="form-control" ><br><br>
+
+<input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+<input type="reset" value="Reset">
+<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+<br><br>Solution is <input type="textfield" name="ans" value="">
+</form></center></h1>
+</body>
+</html>
